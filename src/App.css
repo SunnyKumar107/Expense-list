@@ -1,0 +1,25 @@
+.App {
+  padding: 2em 10em;
+}
+
+.expenses {
+  background-color: #07c475;
+  padding: 2em;
+  border: 2px solid #fff;
+  border-radius: 15px;
+}
+
+@media (max-width: 900px) {
+  .App {
+    padding: 1em 2em;
+  }
+}
+
+@media (max-width: 500px) {
+  .App {
+    padding: 1em;
+  }
+  .expenses {
+    padding: 0.5em;
+  }
+}
