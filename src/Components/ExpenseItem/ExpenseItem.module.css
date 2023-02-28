@@ -10,30 +10,48 @@
   margin-bottom: 0.5em;
 }
 
-.left_side {
+.main_content {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .title {
   font-size: 2rem;
   font-weight: bold;
+  background: #003bdd;
   color: #fff;
-  margin-left: 2em;
+  margin: auto 4em;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 0 0.5em;
 }
 
 .amount {
   font-size: 1.5rem;
-  font-weight: 500;
-  width: 3em;
-  text-align: center;
   border: 2px solid #fff;
-  border-radius: 10px;
-  background-color: #c000b0;
+  background-color: #7b00ac;
+  border-radius: 5px;
+  padding: 0 0.5em;
+}
+
+.del_btn {
+  background-color: #fd0a0a;
+  padding: 0.2em 0.5em;
+  color: #fff;
+  font-size: 1.2rem;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.del_btn:hover {
+  cursor: pointer;
+  background-color: #e90000;
 }
 
 @media (max-width: 900px) {
   .title {
-    margin-left: 1em;
+    margin: auto 1em;
   }
 }
 
@@ -42,6 +60,7 @@
     padding: 0.5em;
   }
   .title {
-    margin-left: 0.5em;
+    margin: 0.12em;
+    font-size: 1.7rem;
   }
 }

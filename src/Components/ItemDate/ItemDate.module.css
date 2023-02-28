@@ -28,3 +28,19 @@
   font-weight: 500;
   margin-bottom: 0;
 }
+
+@media (max-width: 500px) {
+  .date {
+    padding: 0.1em;
+    width: 4em;
+  }
+  .day {
+    font-size: 1.4rem;
+  }
+  .month {
+    font-size: 1rem;
+  }
+  .year {
+    font-size: 0.9rem;
+  }
+}

@@ -10,6 +10,11 @@ const App = () => {
     setExpenses([enteredInput, ...expenses]);
   };
 
+  const deleteExpenseData = (id) => {
+    setExpenses(expenses.filter((exp) => exp.ID !== id));
+    console.log(id);
+  };
+
   return (
     <div className="App">
       <Form ExpenseItem={addExpenseData} />
@@ -20,7 +25,8 @@ const App = () => {
             Amount={e.Amount}
             Date={e.Date}
             key={i}
-            ID={e.Id}
+            ID={e.ID}
+            deleteHandler={deleteExpenseData}
           />
         ))}
       </div>

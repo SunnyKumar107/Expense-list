@@ -8,7 +8,7 @@ const Form = (props) => {
 
   const addItem = () => {
     const expenseData = {
-      ID: Math.random() * 10,
+      ID: Math.floor(Math.random() * 10000),
       Title: title,
       Amount: amount,
       Date: new Date(date),
