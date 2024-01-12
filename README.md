@@ -3,4 +3,4 @@ Where user can add expense items
 and also delete.
 
 See the website visit:
-https://expense-item.netlify.app
+https://expenseitem.netlify.app
